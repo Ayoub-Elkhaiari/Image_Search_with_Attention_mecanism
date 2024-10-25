@@ -157,7 +157,7 @@ The system includes comprehensive logging:
   ![Screenshot 2024-10-25 152649](https://github.com/user-attachments/assets/6b56b854-199c-4ec6-9dc3-3baf0cec0c91)
    
 
-From the results it turns out that Attention mechanism try to attach attention weight to the important features in this case the buildings (castles in images) and tried to retrieve the similar ones from the vectorstore
+From the results, we note that scores are very high when it comes to attention. It turns out that Attention mechanism tried to attach attention weight to the important features in this case the buildings (castles in images) and retrieve the similar ones from the vectorstore.
 
 ---
 
