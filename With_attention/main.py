@@ -25,11 +25,11 @@ def main():
     search_system = ImageSearchSystem()
     
     # Add images to the system
-    image_directory = "With_attention\data\obj_decoys"  # Use forward slashes for paths
+    image_directory = "data\obj_decoys"  # Use forward slashes for paths
     search_system.add_images(image_directory)
     
     # Perform a search
-    query_image = "With_attention\data\img_requetes\ImageRequete.jpg"
+    query_image = "data\img_requetes\ImageRequete.jpg"
     results = search_system.search(query_image, k=5)
     
     # Print results

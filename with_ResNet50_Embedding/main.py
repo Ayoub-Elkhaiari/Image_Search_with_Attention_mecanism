@@ -15,11 +15,11 @@ def main():
     search_system = ImageSearchSystem()
     
     # Add images to the system
-    image_directory = "with_ResNet50_Embedding\data\obj_decoys"
+    image_directory = "data\obj_decoys"
     search_system.add_images(image_directory)
     
     # Perform a search
-    query_image = "with_ResNet50_Embedding\data\img_requetes\ImageRequete2.jpg"
+    query_image = "data\img_requetes\ImageRequete2.jpg"
     results = search_system.search(query_image, k=5)
     
     # Print results
